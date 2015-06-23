@@ -8,7 +8,9 @@ fancy, but quite useful.
 Usage / Features
 ================
 
-Create block arrays (in matlabs's ``[A A; B B]`` spirit::
+Create block arrays (in matlabs's ``[A A; B B]`` spirit):
+
+.. code:: python
 
     >>> from nphelper import block
     >>> A = np.array([[1, 2, 3]])
@@ -19,7 +21,9 @@ Create block arrays (in matlabs's ``[A A; B B]`` spirit::
           [[1, 1, 1, 1, 1, 1],
           [[1, 1, 1, 1, 1, 1]])
 
-Compute the cartesian product (similar to ``itertools.product``)::
+Compute the cartesian product (similar to ``itertools.product``):
+
+.. code:: python
 
     >>> from nphelper import cartesian_product
     >>> cartesian_product([[1, 2], [3, 4]])
@@ -29,7 +33,9 @@ Compute the cartesian product (similar to ``itertools.product``)::
            [2, 4]])
 
 Easily multiply many arrays without the cubersome ``dot`` syntax. It's also
-much faster than dot because it selects the fastest evaluation order::
+much faster than dot because it selects the fastest evaluation order:
+
+.. code:: python
 
     >>> from nphelper import multi_dot
     >>> A = np.random.random((10000, 100))
