@@ -19,7 +19,7 @@ setup(
     url="https://github.com/sotte/nphelper",
     download_url="https://github.com/sotte/nphelper",
     author_email="stefan.otte@gmail.com",
-    version="0.0.1",
+    version="0.0.5",
     install_requires=["numpy", ],
     packages=["nphelper"],
     license="MIT"

@@ -5,6 +5,9 @@ from numpy.linalg import LinAlgError
 from numpy.core import double, intp, Inf
 import copy
 
+###############################################################################
+__version__ = "0.0.5"
+
 
 ###############################################################################
 def _assertRank2(*arrays):
