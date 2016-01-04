@@ -6,6 +6,17 @@ This package contains some convenient helper function for numpy.  Nothing
 fancy, but quite useful.
 It works with python 2.7, 3.4, and 3.5.
 
+
+Install
+============
+
+Simply install via ``pip``::
+
+    pip install nphelper
+
+``nphelper`` only depends on ``numpy``.
+
+
 Usage / Features
 ================
 
@@ -53,29 +64,33 @@ much faster than dot because it selects the fastest evaluation order.
 
 - TODO along, maxalong, minalong, sumalong, meanalong, stdalong, varalong
 
-Dependencies
-============
 
-- numpy 1.8
+Dev
+===
 
-Install
-============
-
-Simply install via ``pip``::
-
-    pip install nphelper
-
-Tests
-------
+Run the tests
+-------------
 
 Run ``tox`` to run the tests for python 2.7, 3.4, and 3.5::
 
     tox
 
-You might need addiotional dependencies to run the tests.
+You might have to install addiotional dependencies to run the tests::
 
 - ``py.test``,
 - ``nose``,
 - ``python2.7-dev``,
 - ``python3.4-dev``, and
 - ``python3.5-dev``.
+
+Build the Docs
+--------------
+
+::
+
+    cd doc
+    make html
+
+You might have to install addiotional dependencies::
+
+    pip install sphinx sphinx_rtd_theme
