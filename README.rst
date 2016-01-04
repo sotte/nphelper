@@ -2,7 +2,7 @@
 nphelper - convenient numpy helper functions
 ############################################
 
-|docs|
+|docs| |travis|
 
 This package contains some convenient helper function for numpy.  Nothing
 fancy, but quite useful.
@@ -105,3 +105,6 @@ You might have to install addiotional dependencies::
 .. |docs| image:: https://readthedocs.org/projects/nphelper/badge/?version=latest
     :target: http://nphelper.readthedocs.org/en/latest/?badge=latest
     :alt: Documentation Status
+
+.. |travis| image:: https://travis-ci.org/sotte/nphelper.svg?branch=master
+    :target: https://travis-ci.org/sotte/nphelper
