@@ -2,6 +2,8 @@
 nphelper - convenient numpy helper functions
 ############################################
 
+|docs|
+
 This package contains some convenient helper function for numpy.  Nothing
 fancy, but quite useful.
 It works with python 2.7, 3.4, and 3.5.
@@ -94,3 +96,12 @@ Build the Docs
 You might have to install addiotional dependencies::
 
     pip install sphinx sphinx_rtd_theme
+
+
+
+.. ============================================================================
+.. Links
+
+.. |docs| image:: https://readthedocs.org/projects/nphelper/badge/?version=latest
+    :target: http://nphelper.readthedocs.org/en/latest/?badge=latest
+    :alt: Documentation Status
