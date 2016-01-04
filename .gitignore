@@ -1,2 +1,7 @@
 __pycache__
 *.pyc
+.tox
+.venv
+tags
+.cache
+nphelper.egg-info
