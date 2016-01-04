@@ -4,6 +4,7 @@ nphelper - convenient numpy helper functions
 
 This package contains some convenient helper function for numpy.  Nothing
 fancy, but quite useful.
+It works with python 2.7, 3.4, and 3.5.
 
 Usage / Features
 ================
@@ -33,7 +34,8 @@ Compute the cartesian product (similar to ``itertools.product``):
            [2, 4]])
 
 Easily multiply many arrays without the cubersome ``dot`` syntax. It's also
-much faster than dot because it selects the fastest evaluation order:
+much faster than dot because it selects the fastest evaluation order.
+(This is part of numpy 1.10.0.)
 
 .. code:: python
 
@@ -59,22 +61,21 @@ Dependencies
 Install
 ============
 
-TODO Add to pypi and conda
+Simply install via ``pip``::
 
-.. ::
-..     pip install nphelper
-
-.. ::
-..     conda install nphelper
+    pip install nphelper
 
 Tests
 ------
 
-Just run ``py.test`` in the root folder of the package
+Run ``tox`` to run the tests for python 2.7, 3.4, and 3.5::
 
+    tox
 
-TODO
-====
+You might need addiotional dependencies to run the tests.
 
-- add sphinx doc
-- see TODOs in README
+- ``py.test``,
+- ``nose``,
+- ``python2.7-dev``,
+- ``python3.4-dev``, and
+- ``python3.5-dev``.
