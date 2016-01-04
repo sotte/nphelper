@@ -1,4 +1,4 @@
-from nphelper import (
+from .nphelper import (
     block,
     cartesian_product,
     multi_dot,
